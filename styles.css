@@ -13,7 +13,7 @@ body {
     height: 100vh;
     padding: 2rem;
     display: grid;
-    grid-template-columns: 200px 200px 100px 100px;
+    grid-template-columns: 225px 200px 100px 100px;
     grid-template-rows: repeat(3, 1fr);
     gap: .5rem;
     place-content: center;
@@ -22,6 +22,7 @@ body {
 .item {
     border-radius: 1rem;
     background-size: cover;
+    background-position: center;
 }
 
 .item:nth-child(1) {
